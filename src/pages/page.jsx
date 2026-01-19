@@ -8,7 +8,7 @@ export default function Home() {
   const [currentFilter, setCurrentFilter] = useState("all");
   const clearCompletedTasks = () => {
     const confirmClear = window.confirm(
-      "Are you sure you want to clear all completed tasks?"
+      "Are you sure you want to clear all completed tasks?",
     );
     if (!confirmClear) return;
 

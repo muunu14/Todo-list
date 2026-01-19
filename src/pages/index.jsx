@@ -3,6 +3,7 @@ import { Form } from "@/components/Form";
 import { Filter } from "@/components/Filter";
 import { Summary } from "@/components/Summary";
 import { TaskContainer } from "@/components/TaskContainer";
+
 export default function Home() {
   const [taskList, setTaskList] = useState([]);
   const [currentFilter, setCurrentFilter] = useState("all");
